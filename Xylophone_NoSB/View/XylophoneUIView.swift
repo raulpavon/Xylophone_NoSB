@@ -261,4 +261,14 @@ class XylophoneUIView: UIView {
             btB.bottomAnchor.constraint(equalTo: bContainer.bottomAnchor),
         ])
     }
+    
+    func setBtKeyTarget(target: Any, action: Selector) {
+        btC.addTarget(target, action: action, for: .touchUpInside)
+        btD.addTarget(target, action: action, for: .touchUpInside)
+        btE.addTarget(target, action: action, for: .touchUpInside)
+        btF.addTarget(target, action: action, for: .touchUpInside)
+        btG.addTarget(target, action: action, for: .touchUpInside)
+        btA.addTarget(target, action: action, for: .touchUpInside)
+        btB.addTarget(target, action: action, for: .touchUpInside)
+    }
 }

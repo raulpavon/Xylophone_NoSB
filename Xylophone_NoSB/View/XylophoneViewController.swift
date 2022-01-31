@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import AVFoundation
 
 class XylophoneViewController: UIViewController {
     
     weak var xylophoneCoordinator: XylophoneCoordinator?
     private let factory: XylophoneFactory
+    var player: AVAudioPlayer!
     
     private lazy var xylophoneUIView: XylophoneUIView = {
         let view = XylophoneUIView(frame: .zero)
@@ -45,6 +47,7 @@ class XylophoneViewController: UIViewController {
     private func initComponents() {
         addComponents()
         setAutolayout()
+        setTarget()
     }
     
     private func addComponents() {
@@ -58,5 +61,25 @@ class XylophoneViewController: UIViewController {
             xylophoneUIView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             xylophoneUIView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
         ])
+    }
+    
+    func setTarget() {
+        xylophoneUIView.setBtKeyTarget(target: self, action: #selector(didTapKey(_:)))
+    }
+    
+    @objc func didTapKey(_ sender: UIButton) {
+        playSound(key: sender.titleLabel?.text ?? "")
+        sender.alpha = 0.5
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            sender.alpha = 1.0
+        }
+    }
+    
+    func playSound(key: String) {
+        let url = Bundle.main.url(forResource: key, withExtension: "wav")
+        player = try! AVAudioPlayer(contentsOf: url!)
+        player.play()
+        
     }
 }
