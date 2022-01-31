@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		0457E06327A856BD0053EFE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457E06227A856BD0053EFE9 /* AppDelegate.swift */; };
-		0457E06527A856BD0053EFE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457E06427A856BD0053EFE9 /* SceneDelegate.swift */; };
-		0457E06727A856BD0053EFE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457E06627A856BD0053EFE9 /* ViewController.swift */; };
-		0457E06A27A856BD0053EFE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0457E06827A856BD0053EFE9 /* Main.storyboard */; };
 		0457E06C27A856BF0053EFE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0457E06B27A856BF0053EFE9 /* Assets.xcassets */; };
 		0457E06F27A856BF0053EFE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0457E06D27A856BF0053EFE9 /* LaunchScreen.storyboard */; };
+		0457E07E27A857540053EFE9 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0457E07727A857530053EFE9 /* C.wav */; };
+		0457E07F27A857540053EFE9 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0457E07827A857530053EFE9 /* A.wav */; };
+		0457E08027A857540053EFE9 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0457E07927A857530053EFE9 /* E.wav */; };
+		0457E08127A857540053EFE9 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0457E07A27A857530053EFE9 /* G.wav */; };
+		0457E08227A857540053EFE9 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0457E07B27A857540053EFE9 /* D.wav */; };
+		0457E08327A857540053EFE9 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0457E07C27A857540053EFE9 /* B.wav */; };
+		0457E08427A857540053EFE9 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0457E07D27A857540053EFE9 /* F.wav */; };
+		0457E08727A858070053EFE9 /* XylophoneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457E08627A858070053EFE9 /* XylophoneCoordinator.swift */; };
+		0457E08A27A858950053EFE9 /* XylophoneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457E08927A858950053EFE9 /* XylophoneFactory.swift */; };
+		0457E08D27A858EF0053EFE9 /* XylophoneUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457E08C27A858EF0053EFE9 /* XylophoneUIView.swift */; };
+		0457E08F27A862890053EFE9 /* XylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457E08E27A862890053EFE9 /* XylophoneViewController.swift */; };
+		0457E09227A865230053EFE9 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457E09127A865230053EFE9 /* GlobalConstants.swift */; };
+		0457E09527A865680053EFE9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457E09427A865680053EFE9 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0457E05F27A856BD0053EFE9 /* Xylophone_NoSB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone_NoSB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0457E06227A856BD0053EFE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0457E06427A856BD0053EFE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0457E06627A856BD0053EFE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0457E06927A856BD0053EFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0457E06B27A856BF0053EFE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0457E06E27A856BF0053EFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0457E07027A856BF0053EFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0457E07727A857530053EFE9 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		0457E07827A857530053EFE9 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		0457E07927A857530053EFE9 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		0457E07A27A857530053EFE9 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		0457E07B27A857540053EFE9 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		0457E07C27A857540053EFE9 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		0457E07D27A857540053EFE9 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		0457E08627A858070053EFE9 /* XylophoneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneCoordinator.swift; sourceTree = "<group>"; };
+		0457E08927A858950053EFE9 /* XylophoneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneFactory.swift; sourceTree = "<group>"; };
+		0457E08C27A858EF0053EFE9 /* XylophoneUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneUIView.swift; sourceTree = "<group>"; };
+		0457E08E27A862890053EFE9 /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
+		0457E09127A865230053EFE9 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		0457E09427A865680053EFE9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,73 @@
 		0457E06127A856BD0053EFE9 /* Xylophone_NoSB */ = {
 			isa = PBXGroup;
 			children = (
+				0457E09327A865540053EFE9 /* Common */,
+				0457E09027A864FA0053EFE9 /* Utils */,
+				0457E08B27A858C10053EFE9 /* View */,
+				0457E08827A858630053EFE9 /* Factory */,
+				0457E08527A857F10053EFE9 /* Coordinator */,
 				0457E06227A856BD0053EFE9 /* AppDelegate.swift */,
-				0457E06427A856BD0053EFE9 /* SceneDelegate.swift */,
-				0457E06627A856BD0053EFE9 /* ViewController.swift */,
-				0457E06827A856BD0053EFE9 /* Main.storyboard */,
 				0457E06B27A856BF0053EFE9 /* Assets.xcassets */,
-				0457E06D27A856BF0053EFE9 /* LaunchScreen.storyboard */,
 				0457E07027A856BF0053EFE9 /* Info.plist */,
+				0457E07627A8570B0053EFE9 /* Sounds */,
 			);
 			path = Xylophone_NoSB;
+			sourceTree = "<group>";
+		};
+		0457E07627A8570B0053EFE9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0457E07827A857530053EFE9 /* A.wav */,
+				0457E07C27A857540053EFE9 /* B.wav */,
+				0457E07727A857530053EFE9 /* C.wav */,
+				0457E07B27A857540053EFE9 /* D.wav */,
+				0457E07927A857530053EFE9 /* E.wav */,
+				0457E07D27A857540053EFE9 /* F.wav */,
+				0457E07A27A857530053EFE9 /* G.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		0457E08527A857F10053EFE9 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				0457E08627A858070053EFE9 /* XylophoneCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		0457E08827A858630053EFE9 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				0457E08927A858950053EFE9 /* XylophoneFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		0457E08B27A858C10053EFE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0457E06D27A856BF0053EFE9 /* LaunchScreen.storyboard */,
+				0457E08C27A858EF0053EFE9 /* XylophoneUIView.swift */,
+				0457E08E27A862890053EFE9 /* XylophoneViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0457E09027A864FA0053EFE9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0457E09127A865230053EFE9 /* GlobalConstants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0457E09327A865540053EFE9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0457E09427A865680053EFE9 /* UIColor+Extension.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +203,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0457E08127A857540053EFE9 /* G.wav in Resources */,
+				0457E08027A857540053EFE9 /* E.wav in Resources */,
+				0457E08227A857540053EFE9 /* D.wav in Resources */,
+				0457E08427A857540053EFE9 /* F.wav in Resources */,
+				0457E08327A857540053EFE9 /* B.wav in Resources */,
+				0457E07E27A857540053EFE9 /* C.wav in Resources */,
 				0457E06F27A856BF0053EFE9 /* LaunchScreen.storyboard in Resources */,
+				0457E07F27A857540053EFE9 /* A.wav in Resources */,
 				0457E06C27A856BF0053EFE9 /* Assets.xcassets in Resources */,
-				0457E06A27A856BD0053EFE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +222,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0457E06727A856BD0053EFE9 /* ViewController.swift in Sources */,
+				0457E09527A865680053EFE9 /* UIColor+Extension.swift in Sources */,
 				0457E06327A856BD0053EFE9 /* AppDelegate.swift in Sources */,
-				0457E06527A856BD0053EFE9 /* SceneDelegate.swift in Sources */,
+				0457E08F27A862890053EFE9 /* XylophoneViewController.swift in Sources */,
+				0457E08A27A858950053EFE9 /* XylophoneFactory.swift in Sources */,
+				0457E08727A858070053EFE9 /* XylophoneCoordinator.swift in Sources */,
+				0457E09227A865230053EFE9 /* GlobalConstants.swift in Sources */,
+				0457E08D27A858EF0053EFE9 /* XylophoneUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0457E06827A856BD0053EFE9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0457E06927A856BD0053EFE9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0457E06D27A856BF0053EFE9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +374,6 @@
 				INFOPLIST_FILE = Xylophone_NoSB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +401,6 @@
 				INFOPLIST_FILE = Xylophone_NoSB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
